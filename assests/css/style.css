@@ -55,6 +55,8 @@ p {
 
 body {
     font-family: 'Source Sans Pro', sans-serif !important;
+    overflow-x: hidden;
+    color: rgb(3, 41, 112) !important;
 }
 
 .dropdown-item.active,
@@ -68,6 +70,9 @@ body {
 
 .navbar {
     padding: 17px 10px !important;
+    position: fixed !important;
+    top: 0;
+    z-index: 9999;
 }
 
 .navbar-nav li a {
@@ -145,6 +150,117 @@ body {
     -moz-border-radius: 0px !important;
     -ms-border-radius: 0px !important;
     -o-border-radius: 0px !important;
+}
+
+.background {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.bg-main {
+    position: relative;
+}
+
+.bg-main::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.377);
+}
+
+.bg-overly h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.bg-overly {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.experience {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.ex-icon-item {
+    width: 8%;
+}
+
+.ex-icon-txt {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.ex-main h2 {
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    padding: 0px 2rem;
+}
+
+.ex-main p {
+    font-size: 35px;
+    font-weight: 400;
+    padding: 0px 8rem;
+    margin-bottom: 7rem;
+}
+
+.ex-com-item {
+    text-align: start;
+}
+
+.ex-com-head {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.p-30 {
+    padding: 30px !important;
+}
+
+.ex-com-p {
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.ex-com-link a {
+    color: #E63167;
+    font-weight: 600;
+}
+
+.ex-com-link {
+    position: relative;
+}
+
+.ex-com-link::after {
+    position: absolute;
+    content: '';
+    bottom: -5px;
+    left: 0;
+    width: 40%;
+    height: 2px;
+    background-color: #E63167;
 }
 
 
