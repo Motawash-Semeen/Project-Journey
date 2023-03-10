@@ -83,7 +83,9 @@ body {
     width: 15%;
 }
 
-.nav-btn {
+.nav-btn,
+.value-link,
+.quality-link {
     font-weight: 700;
     background-color: #E63167;
     border-radius: 0px 20px 0px 20px;
@@ -261,6 +263,151 @@ body {
     width: 40%;
     height: 2px;
     background-color: #E63167;
+}
+
+.expectation {
+    margin: 30px 0px;
+}
+
+.expectation h2 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.expectation_head p {
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.expectation_main {
+    background-image: url(https://quantanite.com/wp-content/uploads/2022/09/squiggles.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.value_main,
+.quality_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.value-img,
+.quality-img {
+    width: 25%;
+}
+
+.value-txt,
+.quality-txt {
+    width: 75%;
+    padding: 30px;
+}
+
+.quality-txt {
+    text-align: end;
+}
+
+.value-name p,
+.quality-name p {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.value-h3 h3,
+.quality-h3 h3 {
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 20PX;
+}
+
+.value-p p {
+    padding-right: 15rem;
+}
+
+.quality-p p {
+    padding-left: 15rem;
+}
+
+.nps-score {
+    max-width: 650px;
+    margin: 80px auto;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #D9D9D9;
+    box-shadow: 0px 10px 20px 10px rgba(3.0000000000000018, 41.000000000000014, 112, 0.06);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    border-radius: 0px 50px 0px 50px;
+    background-color: #fff;
+}
+
+.score_txt {
+    width: 62%;
+    padding: 30px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+
+.w-120 {
+    width: 120%;
+}
+
+.score_main {
+    width: 38%;
+    padding: 30px;
+}
+
+.nps-quote {
+    background-color: #E5F9FF;
+    background-image: url('../images/grey_quote_background_tablet_final-1.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    max-width: 650px;
+    margin: 80px auto;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #D9D9D9;
+    box-shadow: 0px 10px 20px 10px rgba(3.0000000000000018, 41.000000000000014, 112, 0.06);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    border-radius: 0px 50px 0px 50px;
+    padding: 30px;
+}
+
+.top-txt {
+    margin-bottom: 20px;
+}
+
+.top-txt h4 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.top-txt p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.bottom-txt p {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.score-last p {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.score-item h5 {
+    font-size: 22px;
+    font-weight: 700;
 }
 
 
