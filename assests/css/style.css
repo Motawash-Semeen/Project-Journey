@@ -500,7 +500,8 @@ body {
 
 .form input,
 .form select,
-.form textarea {
+.form textarea,
+footer #emails {
     width: 100%;
     font-weight: 400;
     background-color: #fff;
@@ -526,6 +527,11 @@ body {
     color: #fff;
 }
 
+.btn:hover {
+    background-color: rgb(3, 41, 112) !important;
+    color: #fff !important;
+}
+
 textarea {
     resize: none;
     color: #4a4e56 !important;
@@ -534,6 +540,101 @@ textarea {
 #contact {
     background-color: rgb(120, 161, 187);
     padding: 30px;
+}
+
+.footer-item1,
+.footer-item2,
+.footer-item3,
+.footer-item4,
+.footer-item5 {
+    padding: 20px;
+}
+
+.footer-item1 {
+    width: 20%;
+}
+
+.footer-item2 {
+    width: 15%;
+}
+
+.footer-item3 {
+    width: 15%;
+}
+
+.footer-item4 {
+    width: 15%;
+}
+
+.footer-item5 {
+    width: 35%;
+}
+
+.footer-main ul {
+    padding: 0;
+}
+
+.footer-item-head {
+    font-weight: 700;
+}
+
+.footer-item-list ul li a {
+    color: #032970 !important;
+}
+
+.footer-icons i {
+    font-size: 25px;
+}
+
+.footer-cookie a {
+    color: #032970 !important;
+}
+
+.footer-img {
+    margin-left: -1rem;
+}
+
+.footer-news-txt {
+    color: #03297078;
+}
+
+footer .subs-input {
+    width: 60%;
+}
+
+footer #emails {
+    width: 100%;
+    font-weight: 400;
+    background-color: rgb(242, 242, 242);
+    color: #4a4e56;
+    border: none;
+    border-radius: 0 0px 0 20px;
+    font-size: 16px;
+    min-height: 47px;
+    padding: 6px 16px;
+    -webkit-border-radius: 0 0px 0 20px;
+    -moz-border-radius: 0 0px 0 20px;
+    -ms-border-radius: 0 0px 0 20px;
+    -o-border-radius: 0 0px 0 20px;
+}
+
+footer .subs-btn {
+    width: 40%;
+}
+
+footer .subs-btn .subs {
+    background-color: #E63167;
+    color: #fff;
+    font-weight: 700;
+    width: 100%;
+    border: none;
+    border-radius: 0 20px 0 0px;
+    font-size: 16px;
+    padding: 11px 16px;
+    -webkit-border-radius: 0 20px 0 0px;
+    -moz-border-radius: 0 20px 0 0px;
+    -ms-border-radius: 0 20px 0 0px;
+    -o-border-radius: 0 20px 0 0px;
 }
 
 
