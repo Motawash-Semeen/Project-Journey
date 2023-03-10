@@ -410,6 +410,41 @@ body {
     font-weight: 700;
 }
 
+.team-bg {
+    background-color: rgb(3, 41, 112);
+    padding: 20px;
+}
+
+.team-bg-txt {
+    width: 40%;
+}
+
+.team-bg-img {
+    width: 50%;
+}
+
+.team-bg-img img {
+    border-radius: 0px 40px 0px 40px;
+    overflow: hidden;
+}
+
+.team-bg-txt h2 {
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 4rem;
+    margin-bottom: 20px;
+}
+
+.team-bg-txt h4 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.team-bg-img {
+    padding: 30px;
+}
+
 
 /* ============ desktop view ============ */
 
