@@ -25,3 +25,6 @@ $(".nav-mobile .nav-item4").click(function() {
 $(window).resize(function() {
     console.log($("body").width());
 });
+
+
+AOS.init();

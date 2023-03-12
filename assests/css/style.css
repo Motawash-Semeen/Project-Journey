@@ -72,6 +72,11 @@ body {
 
 /* COMMON CSS END */
 
+.animate__animated.animate__fadeInLeftBig,
+.animate__animated.animate__fadeInRightBig {
+    --animate-duration: 3s;
+}
+
 .p-30 {
     padding: 30px;
 }
@@ -153,7 +158,7 @@ body {
     position: relative;
 }
 
-#main_nav .nav-item:before {
+#navs .nav-item:before {
     position: absolute;
     content: '';
     width: 100%;
@@ -165,7 +170,7 @@ body {
     opacity: 0;
 }
 
-#main_nav .navbar .nav-item:hover::before {
+#navs .navbar .nav-item:hover::before {
     opacity: 1;
     visibility: visible;
     transition: 0.7s ease !important;
@@ -173,6 +178,11 @@ body {
     -moz-transition: 0.7s ease !important;
     -ms-transition: 0.7s ease !important;
     -o-transition: 0.7s ease !important;
+}
+
+.nav-mobile .nav-item:before {
+    width: 0px;
+    height: 0px;
 }
 
 .navbar .nav-item:hover .nav-link {
@@ -782,6 +792,9 @@ footer .subs-btn .subs {
 }
 
 @media all and (max-width: 767px) {
+    .navbar-brand {
+        width: 35%;
+    }
     .nav-button {
         display: none;
     }
@@ -832,6 +845,55 @@ footer .subs-btn .subs {
     .value-img {
         width: 70%;
     }
+    .team-bg-main {
+        display: flex !important;
+        flex-direction: column;
+    }
+    .team-bg {
+        padding: 4rem 0px;
+    }
+    .team-bg-txt {
+        width: 100%;
+        padding: 0px 2rem;
+    }
+    .team-bg-img {
+        width: 100%;
+    }
+    .team-bg-txt h2 {
+        font-size: 32px;
+        line-height: 2.4rem;
+    }
+    .contact-main {
+        display: flex !important;
+        flex-direction: column-reverse;
+    }
+    .form {
+        width: 100%;
+    }
+    .contact-txt {
+        width: 100%;
+    }
+    .contact-txt h3 {
+        font-size: 36px;
+    }
+    .footer-item1,
+    .footer-item5 {
+        width: 100%;
+    }
+    .footer-item2,
+    .footer-item3,
+    .footer-item4 {
+        width: 50%;
+    }
+    .footer-img {
+        width: 50%;
+    }
+    footer .subs-input {
+        width: 50%;
+    }
+    footer .subs-btn {
+        width: 50%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -841,6 +903,42 @@ footer .subs-btn .subs {
     .ex-main h2,
     .expectation h2 {
         padding: 0px 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .background {
+        min-height: 600px;
+    }
+    .bg-main {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .marginy-20 {
+        margin-top: 24px !important;
+    }
+    #contact {
+        padding: 0px;
+    }
+    .nps-score {
+        display: flex !important;
+        flex-direction: column-reverse;
+    }
+    .score_txt {
+        width: 100%;
+    }
+    .score_main {
+        width: 60%;
+        margin: auto;
+    }
+    .reverse {
+        flex-direction: column !important;
+    }
+    .w-120 {
+        width: 100%;
     }
 }
 
