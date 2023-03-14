@@ -1,3 +1,8 @@
+.box {
+    box-sizing: border-box;
+    background-clip: padding-box;
+}
+
 .customer-bg {
     background-image: url(../images/customer_experience/CXM-scaled.webp);
     background-position: center center;
@@ -42,4 +47,36 @@
 .customer-bg-overlay p {
     font-size: 35px;
     font-weight: 400;
+}
+
+.solution-head h3,
+.solution-item-head {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.solution-item {
+    border-radius: 0px 50px 0px 50px;
+    -webkit-border-radius: 0px 50px 0px 50px;
+    -moz-border-radius: 0px 50px 0px 50px;
+    -ms-border-radius: 0px 50px 0px 50px;
+    -o-border-radius: 0px 50px 0px 50px;
+}
+
+.solution-icon {
+    margin-bottom: 20px;
+}
+
+.solution-icon svg {
+    height: 4rem;
+}
+
+.solution-item-txt h3 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.solution-item-txt p {
+    margin-bottom: 0px;
 }
