@@ -729,11 +729,13 @@ footer .subs-btn .subs {
         font-size: 45px;
     }
     .ex-main h2,
-    .expectation h2 {
-        font-size: 45px;
+    .expectation h2,
+    .bg-overly-txt h3 {
+        font-size: 45px !important;
     }
-    .ex-main p {
-        font-size: 20px;
+    .ex-main p,
+    .customer-bg-overlay p {
+        font-size: 20px !important;
     }
     .ex-main p {
         padding: 0px 4rem;
@@ -783,8 +785,9 @@ footer .subs-btn .subs {
         font-size: 55px;
     }
     .ex-main h2,
-    .expectation h2 {
-        font-size: 55px;
+    .expectation h2,
+    .customer-bg-overlay h3 {
+        font-size: 55px !important;
     }
     .ex-main p {
         font-size: 30px;
@@ -811,11 +814,16 @@ footer .subs-btn .subs {
         font-size: 40px;
     }
     .ex-main h2,
-    .expectation h2 {
-        font-size: 40px;
+    .expectation h2,
+    .customer-bg-overlay h3 {
+        font-size: 40px !important;
     }
-    .ex-main p {
-        font-size: 25px;
+    .ex-main p,
+    .customer-bg-overlay p,
+    .solution-head h3,
+    .solution-item-head,
+    .talk-txt h3 {
+        font-size: 25px !important;
     }
     .ex-main p {
         padding: 0px 2rem;
@@ -893,6 +901,13 @@ footer .subs-btn .subs {
     }
     footer .subs-btn {
         width: 50%;
+    }
+    .solution-item-main {
+        display: flex;
+        flex-direction: column;
+    }
+    .talk-txt p {
+        line-height: 2rem;
     }
 }
 
