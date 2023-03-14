@@ -1,9 +1,9 @@
 .customer-bg {
     background-image: url(../images/customer_experience/CXM-scaled.webp);
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 10% 0px;
+    padding: 18% 0px;
     position: relative;
 }
 
@@ -17,4 +17,29 @@
     background-color: rgba(0, 0, 0, 0.377);
 }
 
-.customer-bg-overlay {}
+.customer-bg-overlay {
+    width: 100%;
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.bg-overly-txt {
+    margin-top: 60px;
+}
+
+.customer-bg-overlay h3 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.customer-bg-overlay p {
+    font-size: 35px;
+    font-weight: 400;
+}
