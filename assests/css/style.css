@@ -936,6 +936,31 @@ footer .subs-btn .subs {
     .bg-overly-txt p {
         font-size: 18px !important;
     }
+    .services-item {
+        width: 100% !important;
+    }
+    .service-itemicon-dnone {
+        display: flex !important;
+    }
+    .service-itemicon-dnone i {
+        display: inline-block !important;
+    }
+    .service-item-icon {
+        top: 105% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+    .service-item-icon i {
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+    }
 }
 
 @media only screen and (max-width: 600px) {
