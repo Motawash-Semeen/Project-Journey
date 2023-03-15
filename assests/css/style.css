@@ -735,7 +735,8 @@ footer .subs-btn .subs {
     }
     .ex-main h2,
     .expectation h2,
-    .bg-overly-txt h3 {
+    .bg-overly-txt h3,
+    .bg-overly-txt h2 {
         font-size: 45px !important;
     }
     .ex-main p,
@@ -771,6 +772,22 @@ footer .subs-btn .subs {
     .quality-p p {
         padding-left: 0rem;
     }
+    .bg-overly-txt p {
+        font-size: 23px !important;
+    }
+    .services-item {
+        width: 49% !important;
+        margin-bottom: 20px;
+    }
+    .service-itemicon-dnone {
+        display: none !important;
+    }
+    .service-itemicon-dnone i {
+        display: none !important;
+    }
+    .service-item-icon {
+        right: -11% !important;
+    }
 }
 
 @media only screen and (max-width: 1198px) {
@@ -791,7 +808,8 @@ footer .subs-btn .subs {
     }
     .ex-main h2,
     .expectation h2,
-    .customer-bg-overlay h3 {
+    .customer-bg-overlay h3,
+    .bg-overly-txt h2 {
         font-size: 55px !important;
     }
     .ex-main p {
@@ -820,7 +838,8 @@ footer .subs-btn .subs {
     }
     .ex-main h2,
     .expectation h2,
-    .customer-bg-overlay h3 {
+    .customer-bg-overlay h3,
+    .bg-overly-txt h2 {
         font-size: 40px !important;
     }
     .ex-main p,
@@ -914,6 +933,9 @@ footer .subs-btn .subs {
     .talk-txt p {
         line-height: 2rem;
     }
+    .bg-overly-txt p {
+        font-size: 18px !important;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -933,6 +955,9 @@ footer .subs-btn .subs {
     .bg-main {
         width: 100%;
         height: 100%;
+    }
+    .service-item-icon {
+        right: -19%;
     }
 }
 
@@ -959,6 +984,9 @@ footer .subs-btn .subs {
     }
     .w-120 {
         width: 100%;
+    }
+    .bg-overly-txt p {
+        font-size: 14px !important;
     }
 }
 
