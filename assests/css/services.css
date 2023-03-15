@@ -93,6 +93,29 @@
     font-size: 20px;
 }
 
+.icon-list-icon i {
+    font-size: 14px;
+}
+
+.icon-list-text {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.services-item-txt h3 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 0.9em;
+}
+
+.services-item-txt-main li {
+    margin-bottom: 10px;
+}
+
+.services-item-txt-main {
+    margin-bottom: 2rem !important;
+}
+
 #talk {
     padding: 4% 4% 4% 4%;
     background-color: #032970;
