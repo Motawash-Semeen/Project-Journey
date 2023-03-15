@@ -28,3 +28,25 @@ $(window).resize(function() {
 
 
 AOS.init();
+
+
+
+
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    speed: 1000,
+    autoplay: {
+        delay: 2700,
+        disableOnInteraction: true,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    navigation: {
+        nextEl: ".swiper-prev",
+        prevEl: ".swiper-next",
+    },
+});

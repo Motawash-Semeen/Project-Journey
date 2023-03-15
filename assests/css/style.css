@@ -102,7 +102,8 @@ body {
 
 .nav-btn,
 .value-link,
-.quality-link {
+.quality-link,
+.service-slider-link a {
     font-weight: 700;
     background-color: #E63167;
     border-radius: 0px 20px 0px 20px;
@@ -304,11 +305,13 @@ body {
     font-weight: 600;
 }
 
-.ex-com-link {
+.ex-com-link,
+.service-item-link {
     position: relative;
 }
 
-.ex-com-link::after {
+.ex-com-link::after,
+.service-item-link::after {
     position: absolute;
     content: '';
     bottom: -5px;
