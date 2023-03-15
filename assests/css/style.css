@@ -718,8 +718,8 @@ footer .subs-btn .subs {
         display: block;
     }
     .navbar .nav-item .dropdown-menu {
-        margin-top: 5%;
-        margin-left: -15%;
+        margin-top: 5% !important;
+        margin-left: -15% !important;
     }
 }
 
@@ -787,6 +787,23 @@ footer .subs-btn .subs {
     }
     .service-item-icon {
         right: -11% !important;
+    }
+    .services-head h3,
+    .services-item-head h3,
+    .service-details-head h3 {
+        font-size: 25px !important;
+    }
+    .ser-btn a {
+        font-size: 14px;
+    }
+    .service-item-txt h3 {
+        font-size: 32px !important;
+    }
+    .service-item-txt {
+        width: 48% !important;
+    }
+    .service-item-img {
+        width: 48% !important;
     }
 }
 
@@ -961,6 +978,21 @@ footer .subs-btn .subs {
         -ms-transform: rotate(90deg);
         -o-transform: rotate(90deg);
     }
+    .swiper {
+        width: 95% !important;
+    }
+    .col-rev {
+        flex-direction: column-reverse;
+    }
+    .col-def {
+        flex-direction: column;
+    }
+    .service-item-txt {
+        width: 100% !important;
+    }
+    .service-item-img {
+        width: 100% !important;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -1012,6 +1044,17 @@ footer .subs-btn .subs {
     }
     .bg-overly-txt p {
         font-size: 14px !important;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .swiper-next {
+        top: 60%;
+        left: 7% !important;
+    }
+    .swiper-prev {
+        top: 60%;
+        right: 5% !important;
     }
 }
 
