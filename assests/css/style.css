@@ -105,7 +105,8 @@ body {
 .nav-btn,
 .value-link,
 .quality-link,
-.service-slider-link a {
+.service-slider-link a,
+.bg-overlay-btn a {
     font-weight: 700;
     background-color: #E63167;
     border-radius: 0px 20px 0px 20px;
@@ -256,7 +257,7 @@ body {
 }
 
 .ex-icon-item {
-    width: 10%;
+    width: 8%;
 }
 
 .ex-icon-txt {
