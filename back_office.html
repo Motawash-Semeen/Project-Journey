@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back Office Services | Quantanite</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./assests/css/style.css">
+    <link rel="stylesheet" href="./assests/css/back_office.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="icon" href="https://quantanite.com/wp-content/uploads/2022/08/Q_logo_final_High-res-04-150x150.webp" sizes="32x32">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <section id="navs">
+        <!-- ============= COMPONENT ============== -->
+        <nav class="navbar navbar-expand-xl navbar-dark bg-white w-100">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://quantanite.com/wp-content/uploads/2022/08/footer_logo-1.png" alt="logo" class="w-100">
+                </a>
+
+                <div class="nav-info d-flex justify-content-between align-items-center">
+                    <div class="collapse navbar-collapse pe-5" id="main_nav">
+                        <ul class="navbar-nav justify-content-end ">
+                            <li class="nav-item dropdown"><a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+                                    <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+                                    <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#">How We Do It</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Industries</a>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a class="dropdown-item" href="#">Industries</a></li>
+                                    <li><a class="dropdown-item" href="#">Success Stories
+                                    </a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#">Success Stories</a></li>
+                            <li class="nav-item dropdown"><a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Insights</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+                                    <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+                                    <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Company</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+                                    <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+                                    <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-mobile" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                          <i class="fas fa-bars" style="color:rgb(3, 41, 112); font-size:28px;"></i>
+                        </span>
+                      </button>
+                    <div class="nav-button">
+                        <a class="nav-btn" href="/">Contact Us</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="nav-mobile collapse navbar-collapse" id="nav-mobile">
+                <ul class="text-center nav-mobile-lists">
+                    <li class="nav-item nav-item1 border-bottom "><a class="nav-link  dropdown-toggle" href="#">Services</a>
+                        <ul class="drop-show1 ">
+                            <li><a class="" href="#"> Submenu item 1</a></li>
+                            <li><a class="" href="#"> Submenu item 2 </a></li>
+                            <li><a class="" href="#"> Submenu item 3 </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item border-bottom"><a class="nav-link" href="#">How We Do It</a></li>
+                    <li class="nav-item nav-item2 border-bottom">
+                        <a class="nav-link  dropdown-toggle" href="#"> Industries</a>
+                        <ul class="drop-show2 ">
+                            <li><a class="" href="#">Industries</a></li>
+                            <li><a class="" href="#">Success Stories
+                            </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item border-bottom"><a class="nav-link" href="#">Success Stories</a></li>
+                    <li class=" nav-item nav-item3 border-bottom"><a class="nav-link  dropdown-toggle" href="#"> Insights</a>
+                        <ul class="drop-show3">
+                            <li><a class="" href="#"> Submenu item 1</a></li>
+                            <li><a class="" href="#"> Submenu item 2 </a></li>
+                            <li><a class="" href="#"> Submenu item 3 </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item4 nav-item dropdown">
+                        <a class="nav-link  dropdown-toggle" href="#">  Company</a>
+                        <ul class="drop-show4">
+                            <li><a class="" href="#"> Submenu item 1</a></li>
+                            <li><a class="" href="#"> Submenu item 2 </a></li>
+                            <li><a class="" href="#"> Submenu item 3 </a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+    </section>
+
+
+    <section class="b-office-bg w-100" id="b-office-bg">
+        <div class="b-office-bg-overlay">
+            <div class="bg-overly-txt container-xl text-center">
+                <h2 class="mb-4">Back Office
+                </h2>
+                <p>Improve performance and efficiency in operations and reduce costs while you focus on your core business and customers
+                </p>
+            </div>
+            <div class="bg-overlay-btn text-center">
+                <a href="/">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="experience container-xl mt-5">
+        <div class="ex-icons-head">
+            <div class="ex-icon d-flex justify-content-between align-items-center flex-wrap w-100">
+                <div class="ex-icon-item">
+                    <img class="w-100" src="./assests/images/GrubHub-Logo.png" alt="">
+                </div>
+                <div class="ex-icon-item">
+                    <img class="w-100" src="./assests/images/Tripadvisor-Logo.png" alt="">
+                </div>
+                <div class="ex-icon-item">
+                    <img class="w-100" src="./assests/images/DoorDash-Logo.png" alt="">
+                </div>
+                <div class="ex-icon-item">
+                    <img class="w-100" src="./assests/images/JustPark-LOGO.png" alt="">
+                </div>
+                <div class="ex-icon-item">
+                    <img class="w-100" src="./assests/images/hellofresh-Logo.png" alt="">
+                </div>
+                <div class="ex-icon-item">
+                    <img class="w-100" src="./assests/images/DoorDash-Logo.png" alt="">
+                </div>
+                <div class="ex-icon-item">
+                    <img class="w-100" src="./assests/images/Facebook-Logo.png" alt="">
+                </div>
+                <div class="ex-icon-item">
+                    <img class="w-100" src="./assests/images/Spotify-Logo.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="ex-footer d-flex align-items-center justify-content-between">
+            <div class="ex-footer-txt text-start">
+                <h3 class="mb-4">Quantanite: <span>Your Back Office Outsource Services Provider</span></h3>
+                <p>At Quantanite, we ensure the success of your business with our back-office outsourcing services. This is achieved by leveraging our professional associates with domain expertise, providing flexibility, lower costs and access to state-of-the-art
+                    technology and infrastructure. Scale your back-office processes cost-effectively with our functional and domain experts.
+                </p>
+            </div>
+            <div class="ex-footer-img p4">
+                <img class="mb-4" src="./assests/images/scoreoutof10-1.webp" alt="">
+                <p><strong>Client’s NPS Score</strong>
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="what mt-5" id="what">
+        <div class="office-service-container container-xl">
+            <div class="office-service-top text-center">
+                <h2>Quantanite - <span>What We Do</span>
+                </h2>
+                <p>Back-Office Service Suite
+                </p>
+            </div>
+            <div class="office-items d-flex justify-content-between flex-wrap">
+                <div class="office-item office-first d-flex justify-content-center align-items-center">
+                    <p>Order Entry & Management
+                    </p>
+                </div>
+                <div class="office-item office-first d-flex justify-content-center align-items-center">
+                    <p>Transaction Processing and Management
+                    </p>
+                </div>
+                <div class="office-item office-first d-flex justify-content-center align-items-center">
+                    <p>Data Entry and Data Management
+                    </p>
+                </div>
+                <div class="office-item office-first d-flex justify-content-center align-items-center">
+                    <p>Billing and Payment Processing
+                    </p>
+                </div>
+            </div>
+            <div class="office-items d-flex justify-content-between flex-wrap">
+                <div class="office-item office-last d-flex justify-content-center align-items-center">
+                    <p>Migration Support
+                    </p>
+                </div>
+                <div class="office-item office-last d-flex justify-content-center align-items-center">
+                    <p>Case Management
+                    </p>
+                </div>
+                <div class="office-item office-last d-flex justify-content-center align-items-center">
+                    <p>Transcription
+                    </p>
+                </div>
+                <div class="office-item office-last d-flex justify-content-center align-items-center">
+                    <p>Document Indexing and Archiving
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats container-xl" id="stats">
+        <div class="stats_head text-center mb-4">
+            <h2>Company Stats</h2>
+        </div>
+        <div class="stats-items d-flex align-items-center justify-content-between">
+            <div class="stats-item text-center mx-auto">
+                <div class="stats-item-img">
+                    <img class="w-100" src="./assests/images/csat-1-1.webp" alt="">
+                </div>
+                <div class="stats-item-txt">
+                    <p>Average CSAT score across multiple vertical industries
+                    </p>
+                </div>
+            </div>
+            <div class="stats-item text-center mx-auto">
+                <div class="stats-item-img mb-4">
+                    <img class="w-100" src="./assests/images/top100-1.webp" alt="">
+                </div>
+                <div class="stats-item-txt">
+                    <p>Fastest Growing B2B Service Provider 2021 (by Clutch)
+                    </p>
+                </div>
+            </div>
+            <div class="stats-item text-center mx-auto">
+                <div class="stats-item-img mb-4">
+                    <img class="w-100" src="./assests/images/top100-1.webp" alt="">
+                </div>
+                <div class="stats-item-txt">
+                    <p>Fastest Growing Voice Service Provider 2021 (by Clutch)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="client-love">
+        <div class="client-head">
+            <h2>Why Our Back Office Clients <span>Love Our Services</span>
+            </h2>
+        </div>
+        <div class="client-love-bg">
+            <div class="client-love-overlay container-xl">
+                <div class="love-overlay-items d-flex justify-content-between">
+                    <div class="love-overlay-item">
+                        <div class="love-overlay-container">
+                            <h3>Performance</h3>
+                            <p>We provide high-performance outsourced teams based off-shore in Bangladesh or nearshore in South Africa, with established Centres of Excellence focused on continually innovating our back-office outsourcing solutions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="experience container-xl">
+        <div class="ex-icons-head">
+            <div class="ex-icon-txt">
+                Trusted for our speed, flexibility, and affordability by over 100 leading organisations
+            </div>
+        </div>
+        <div class="ex-main">
+            <div class="ex-com row">
+                <div class="ex-com-item col-lg-3 col-md-6 col-sm-12 p-30 animate__zoomIn animate__animated">
+                    <div class="ex-com-img">
+                        <img class="w-100" src="https://quantanite.com/wp-content/uploads/2022/08/digital_content_services-1-1.png" alt="">
+                    </div>
+                    <div class="ex-com-head">
+                        CUSTOMER EXPERIENCE MANAGEMENT
+                    </div>
+                    <div class="ex-com-p">
+                        Experts in multilingual customer support and experience, dedicated to improved retention and loyalty.
+                    </div>
+                    <div class="ex-com-link d-inline-block">
+                        <a href="/">
+                            Learn More
+                            <img decoding="async" style="width: 12px; height: 12px; margin-left: 5px;" alt="" width="12" height="12" data-src="https://quantanite.com/wp-content/uploads/2022/09/Icon-feather-arrow-up-right_1.png" class="alignnone size-full wp-image-11770 ls-is-cached lazyloaded" src="https://quantanite.com/wp-content/uploads/2022/09/Icon-feather-arrow-up-right_1.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="ex-com-item col-lg-3 col-md-6 col-sm-12 p-30 animate__zoomIn animate__animated">
+                    <div class="ex-com-img">
+                        <img class="w-100" src="https://quantanite.com/wp-content/uploads/2022/08/back_office_services-1.png" alt="">
+                    </div>
+                    <div class="ex-com-head">
+                        CUSTOMER EXPERIENCE MANAGEMENT
+                    </div>
+                    <div class="ex-com-p">
+                        Experts in multilingual customer support and experience, dedicated to improved retention and loyalty.
+                    </div>
+                    <div class="ex-com-link  d-inline-block">
+                        <a href="/">
+                            Learn More
+                            <img decoding="async" style="width: 12px; height: 12px; margin-left: 5px;" alt="" width="12" height="12" data-src="https://quantanite.com/wp-content/uploads/2022/09/Icon-feather-arrow-up-right_1.png" class="alignnone size-full wp-image-11770 ls-is-cached lazyloaded" src="https://quantanite.com/wp-content/uploads/2022/09/Icon-feather-arrow-up-right_1.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="ex-com-item col-lg-3 col-md-6 col-sm-12 p-30 animate__zoomIn animate__animated">
+                    <div class="ex-com-img">
+                        <img class="w-100" src="https://quantanite.com/wp-content/uploads/2022/09/four_section_cmx.png" alt="">
+                    </div>
+                    <div class="ex-com-head">
+                        CUSTOMER EXPERIENCE MANAGEMENT
+                    </div>
+                    <div class="ex-com-p">
+                        Experts in multilingual customer support and experience, dedicated to improved retention and loyalty.
+                    </div>
+                    <div class="ex-com-link  d-inline-block">
+                        <a href="/">
+                            Learn More
+                            <img decoding="async" style="width: 12px; height: 12px; margin-left: 5px;" alt="" width="12" height="12" data-src="https://quantanite.com/wp-content/uploads/2022/09/Icon-feather-arrow-up-right_1.png" class="alignnone size-full wp-image-11770 ls-is-cached lazyloaded" src="https://quantanite.com/wp-content/uploads/2022/09/Icon-feather-arrow-up-right_1.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="ex-com-item col-lg-3 col-md-6 col-sm-12 p-30 animate__zoomIn animate__animated">
+                    <div class="ex-com-img">
+                        <img class="w-100" src="https://quantanite.com/wp-content/uploads/2022/09/four_section_sales_enablement.png" alt="">
+                    </div>
+                    <div class="ex-com-head">
+                        CUSTOMER EXPERIENCE MANAGEMENT
+                    </div>
+                    <div class="ex-com-p">
+                        Experts in multilingual customer support and experience, dedicated to improved retention and loyalty.
+                    </div>
+                    <div class="ex-com-link  d-inline-block">
+                        <a href="/">
+                            Learn More
+                            <img decoding="async" style="width: 12px; height: 12px; margin-left: 5px;" alt="" width="12" height="12" data-src="https://quantanite.com/wp-content/uploads/2022/09/Icon-feather-arrow-up-right_1.png" class="alignnone size-full wp-image-11770 ls-is-cached lazyloaded" src="https://quantanite.com/wp-content/uploads/2022/09/Icon-feather-arrow-up-right_1.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact m-auto d-block">
+        <div class="contact-main d-flex justify-content-center align-items-center container-xl">
+            <div class="form p-30">
+                <form action="" method="get" class="row">
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-xs-12 ">
+                            <input type="text" name="fname" id="fname" class="w-100" placeholder="First Name*" required>
+                        </div>
+                        <div class="col-sm-6 col-xs-12 marginy-20">
+                            <input type="text" name="lname" class="w-100" id="lname" placeholder="Last Name*" required>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-xs-12 ">
+                            <input type="text" name="cname" id="cname" class="w-100" placeholder="Company Name*" required>
+                        </div>
+                        <div class="col-sm-6 col-xs-12 marginy-20">
+                            <input type="text" name="job" class="w-100" id="job" placeholder="Job Title*" required>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-xs-12 ">
+                            <input type="email" name="email" id="email" class="w-100" placeholder="Email*" required>
+                        </div>
+                        <div class="col-sm-6 col-xs-12 marginy-20">
+                            <input type="text" name="number" class="w-100" id="number" placeholder="Contact Number*" required>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-12">
+                            <select name="country" id="country" required><option value="" selected="selected">Country*</option><option value="Afghanistan">Afghanistan</option><option value="Albania">Albania</option><option value="Algeria">Algeria</option><option value="American Samoa">American Samoa</option><option value="Andorra">Andorra</option><option value="Angola">Angola</option><option value="Anguilla">Anguilla</option><option value="Antarctica">Antarctica</option><option value="Antigua and Barbuda">Antigua and Barbuda</option><option value="Argentina">Argentina</option><option value="Armenia">Armenia</option><option value="Aruba">Aruba</option><option value="Australia">Australia</option><option value="Austria">Austria</option><option value="Azerbaijan">Azerbaijan</option><option value="Bahamas">Bahamas</option><option value="Bahrain">Bahrain</option><option value="Bangladesh">Bangladesh</option><option value="Barbados">Barbados</option><option value="Belarus">Belarus</option><option value="Belgium">Belgium</option><option value="Belize">Belize</option><option value="Benin">Benin</option><option value="Bermuda">Bermuda</option><option value="Bhutan">Bhutan</option><option value="Bolivia">Bolivia</option><option value="Bonaire, Sint Eustatius and Saba">Bonaire, Sint Eustatius and Saba</option><option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option><option value="Botswana">Botswana</option><option value="Bouvet Island">Bouvet Island</option><option value="Brazil">Brazil</option><option value="British Indian Ocean Territory">British Indian Ocean Territory</option><option value="Brunei Darussalam">Brunei Darussalam</option><option value="Bulgaria">Bulgaria</option><option value="Burkina Faso">Burkina Faso</option><option value="Burundi">Burundi</option><option value="Cambodia">Cambodia</option><option value="Cameroon">Cameroon</option><option value="Canada">Canada</option><option value="Cape Verde">Cape Verde</option><option value="Cayman Islands">Cayman Islands</option><option value="Central African Republic">Central African Republic</option><option value="Chad">Chad</option><option value="Chile">Chile</option><option value="China">China</option><option value="Christmas Island">Christmas Island</option><option value="Cocos Islands">Cocos Islands</option><option value="Colombia">Colombia</option><option value="Comoros">Comoros</option><option value="Congo">Congo</option><option value="Congo, Democratic Republic of the">Congo, Democratic Republic of the</option><option value="Cook Islands">Cook Islands</option><option value="Costa Rica">Costa Rica</option><option value="Croatia">Croatia</option><option value="Cuba">Cuba</option><option value="Curaçao">Curaçao</option><option value="Cyprus">Cyprus</option><option value="Czechia">Czechia</option><option value="Côte d'Ivoire">Côte d'Ivoire</option><option value="Denmark">Denmark</option><option value="Djibouti">Djibouti</option><option value="Dominica">Dominica</option><option value="Dominican Republic">Dominican Republic</option><option value="Ecuador">Ecuador</option><option value="Egypt">Egypt</option><option value="El Salvador">El Salvador</option><option value="Equatorial Guinea">Equatorial Guinea</option><option value="Eritrea">Eritrea</option><option value="Estonia">Estonia</option><option value="Eswatini">Eswatini</option><option value="Ethiopia">Ethiopia</option><option value="Falkland Islands">Falkland Islands</option><option value="Faroe Islands">Faroe Islands</option><option value="Fiji">Fiji</option><option value="Finland">Finland</option><option value="France">France</option><option value="French Guiana">French Guiana</option><option value="French Polynesia">French Polynesia</option><option value="French Southern Territories">French Southern Territories</option><option value="Gabon">Gabon</option><option value="Gambia">Gambia</option><option value="Georgia">Georgia</option><option value="Germany">Germany</option><option value="Ghana">Ghana</option><option value="Gibraltar">Gibraltar</option><option value="Greece">Greece</option><option value="Greenland">Greenland</option><option value="Grenada">Grenada</option><option value="Guadeloupe">Guadeloupe</option><option value="Guam">Guam</option><option value="Guatemala">Guatemala</option><option value="Guernsey">Guernsey</option><option value="Guinea">Guinea</option><option value="Guinea-Bissau">Guinea-Bissau</option><option value="Guyana">Guyana</option><option value="Haiti">Haiti</option><option value="Heard Island and McDonald Islands">Heard Island and McDonald Islands</option><option value="Holy See">Holy See</option><option value="Honduras">Honduras</option><option value="Hong Kong">Hong Kong</option><option value="Hungary">Hungary</option><option value="Iceland">Iceland</option><option value="India">India</option><option value="Indonesia">Indonesia</option><option value="Iran">Iran</option><option value="Iraq">Iraq</option><option value="Ireland">Ireland</option><option value="Isle of Man">Isle of Man</option><option value="Israel">Israel</option><option value="Italy">Italy</option><option value="Jamaica">Jamaica</option><option value="Japan">Japan</option><option value="Jersey">Jersey</option><option value="Jordan">Jordan</option><option value="Kazakhstan">Kazakhstan</option><option value="Kenya">Kenya</option><option value="Kiribati">Kiribati</option><option value="Korea, Democratic People's Republic of">Korea, Democratic People's Republic of</option><option value="Korea, Republic of">Korea, Republic of</option><option value="Kuwait">Kuwait</option><option value="Kyrgyzstan">Kyrgyzstan</option><option value="Lao People's Democratic Republic">Lao People's Democratic Republic</option><option value="Latvia">Latvia</option><option value="Lebanon">Lebanon</option><option value="Lesotho">Lesotho</option><option value="Liberia">Liberia</option><option value="Libya">Libya</option><option value="Liechtenstein">Liechtenstein</option><option value="Lithuania">Lithuania</option><option value="Luxembourg">Luxembourg</option><option value="Macao">Macao</option><option value="Madagascar">Madagascar</option><option value="Malawi">Malawi</option><option value="Malaysia">Malaysia</option><option value="Maldives">Maldives</option><option value="Mali">Mali</option><option value="Malta">Malta</option><option value="Marshall Islands">Marshall Islands</option><option value="Martinique">Martinique</option><option value="Mauritania">Mauritania</option><option value="Mauritius">Mauritius</option><option value="Mayotte">Mayotte</option><option value="Mexico">Mexico</option><option value="Micronesia">Micronesia</option><option value="Moldova">Moldova</option><option value="Monaco">Monaco</option><option value="Mongolia">Mongolia</option><option value="Montenegro">Montenegro</option><option value="Montserrat">Montserrat</option><option value="Morocco">Morocco</option><option value="Mozambique">Mozambique</option><option value="Myanmar">Myanmar</option><option value="Namibia">Namibia</option><option value="Nauru">Nauru</option><option value="Nepal">Nepal</option><option value="Netherlands">Netherlands</option><option value="New Caledonia">New Caledonia</option><option value="New Zealand">New Zealand</option><option value="Nicaragua">Nicaragua</option><option value="Niger">Niger</option><option value="Nigeria">Nigeria</option><option value="Niue">Niue</option><option value="Norfolk Island">Norfolk Island</option><option value="North Macedonia">North Macedonia</option><option value="Northern Mariana Islands">Northern Mariana Islands</option><option value="Norway">Norway</option><option value="Oman">Oman</option><option value="Pakistan">Pakistan</option><option value="Palau">Palau</option><option value="Palestine, State of">Palestine, State of</option><option value="Panama">Panama</option><option value="Papua New Guinea">Papua New Guinea</option><option value="Paraguay">Paraguay</option><option value="Peru">Peru</option><option value="Philippines">Philippines</option><option value="Pitcairn">Pitcairn</option><option value="Poland">Poland</option><option value="Portugal">Portugal</option><option value="Puerto Rico">Puerto Rico</option><option value="Qatar">Qatar</option><option value="Romania">Romania</option><option value="Russian Federation">Russian Federation</option><option value="Rwanda">Rwanda</option><option value="Réunion">Réunion</option><option value="Saint Barthélemy">Saint Barthélemy</option><option value="Saint Helena, Ascension and Tristan da Cunha">Saint Helena, Ascension and Tristan da Cunha</option><option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option><option value="Saint Lucia">Saint Lucia</option><option value="Saint Martin">Saint Martin</option><option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option><option value="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option><option value="Samoa">Samoa</option><option value="San Marino">San Marino</option><option value="Sao Tome and Principe">Sao Tome and Principe</option><option value="Saudi Arabia">Saudi Arabia</option><option value="Senegal">Senegal</option><option value="Serbia">Serbia</option><option value="Seychelles">Seychelles</option><option value="Sierra Leone">Sierra Leone</option><option value="Singapore">Singapore</option><option value="Sint Maarten">Sint Maarten</option><option value="Slovakia">Slovakia</option><option value="Slovenia">Slovenia</option><option value="Solomon Islands">Solomon Islands</option><option value="Somalia">Somalia</option><option value="South Africa">South Africa</option><option value="South Georgia and the South Sandwich Islands">South Georgia and the South Sandwich Islands</option><option value="South Sudan">South Sudan</option><option value="Spain">Spain</option><option value="Sri Lanka">Sri Lanka</option><option value="Sudan">Sudan</option><option value="Suriname">Suriname</option><option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option><option value="Sweden">Sweden</option><option value="Switzerland">Switzerland</option><option value="Syria Arab Republic">Syria Arab Republic</option><option value="Taiwan">Taiwan</option><option value="Tajikistan">Tajikistan</option><option value="Tanzania, the United Republic of">Tanzania, the United Republic of</option><option value="Thailand">Thailand</option><option value="Timor-Leste">Timor-Leste</option><option value="Togo">Togo</option><option value="Tokelau">Tokelau</option><option value="Tonga">Tonga</option><option value="Trinidad and Tobago">Trinidad and Tobago</option><option value="Tunisia">Tunisia</option><option value="Turkmenistan">Turkmenistan</option><option value="Turks and Caicos Islands">Turks and Caicos Islands</option><option value="Tuvalu">Tuvalu</option><option value="Türkiye">Türkiye</option><option value="US Minor Outlying Islands">US Minor Outlying Islands</option><option value="Uganda">Uganda</option><option value="Ukraine">Ukraine</option><option value="United Arab Emirates">United Arab Emirates</option><option value="United Kingdom">United Kingdom</option><option value="United States">United States</option><option value="Uruguay">Uruguay</option><option value="Uzbekistan">Uzbekistan</option><option value="Vanuatu">Vanuatu</option><option value="Venezuela">Venezuela</option><option value="Viet Nam">Viet Nam</option><option value="Virgin Islands, British">Virgin Islands, British</option><option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option><option value="Wallis and Futuna">Wallis and Futuna</option><option value="Western Sahara">Western Sahara</option><option value="Yemen">Yemen</option><option value="Zambia">Zambia</option><option value="Zimbabwe">Zimbabwe</option><option value="Åland Islands">Åland Islands</option></select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <textarea name="message" id="message" class="textarea small" placeholder="Message*" aria-required="true" aria-invalid="false" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-btn text-center pt-4">
+                        <input type="button" class="btn" value="Submit">
+                    </div>
+                </form>
+            </div>
+            <div class="contact-txt p-30">
+                <h3>Get in touch with us!
+                </h3>
+                <p>Are you ready to supercharge your customer experiences?
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="container-xl">
+            <div class="footer-main d-flex align-items-lg-start flex-wrap">
+                <div class="footer-item1">
+                    <div class="footer-img mb-4">
+                        <img class="w-100" src="./assests/images/footer_logo-1.webp" alt="logo">
+                    </div>
+                    <div class="footer-item-txt mb-4">
+                        Customer experience and digital outsourcing for the world’s fastest growing companies
+                    </div>
+                    <div class="footer-icons d-flex align-items-center gap-4 mb-4">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                    <div class="footer-cookie">
+                        <a href="/">Cookie Policy </a> | <a href="/"> Terms of Use</a>
+                    </div>
+                </div>
+                <div class="footer-item2">
+                    <div class="footer-item-head mb-4">
+                        Navigation
+                    </div>
+                    <div class="footer-item-list">
+                        <ul>
+                            <li class="py-2"><a href="/">Services</a></li>
+                            <li class="py-2"><a href="/">How We Do it</a></li>
+                            <li class="py-2"><a href="/">Industries</a></li>
+                            <li class="py-2"><a href="/">Success Stories</a></li>
+                            <li class="py-2"><a href="/">Company</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-item3">
+                    <div class="footer-item-head mb-4">
+                        Insights
+                    </div>
+                    <div class="footer-item-list">
+                        <ul>
+                            <li class="py-2"><a href="/">Insights</a></li>
+                            <li class="py-2"><a href="/">Blog</a></li>
+                            <li class="py-2"><a href="/">Client Stories</a></li>
+                            <li class="py-2"><a href="/">Demos & Videos</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-item4">
+                    <div class="footer-item-head mb-4">
+                        Company
+                    </div>
+                    <div class="footer-item-list">
+                        <ul>
+                            <li class="py-2"><a href="/">About Us</a></li>
+                            <li class="py-2"><a href="/">Our Story</a></li>
+                            <li class="py-2"><a href="/">Our Values</a></li>
+                            <li class="py-2"><a href="/">Leadership</a></li>
+                            <li class="py-2"><a href="/">Women In Leadership</a></li>
+                            <li class="py-2"><a href="/">Locations</a></li>
+                            <li class="py-2"><a href="/">Careers</a></li>
+                            <li class="py-2"><a href="/">Newsroom</a></li>
+                            <li class="py-2"><a href="/">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-item5">
+                    <div class="footer-item-head mb-4">
+                        Join Our Newsletter
+                    </div>
+                    <div class="form-input mb-4">
+                        <form action="" class="d-flex align-items-center justify-content-center">
+                            <div class="subs-input">
+                                <input type="email" name="emails" id="emails" placeholder="Your Email Address">
+                            </div>
+                            <div class="subs-btn">
+                                <input type="button" class="subs" value="Subscribe">
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="footer-news-txt">
+                        Learn about customer experience (CX) and digital outsourcing best practices, industry trends, and innovative approaches to keep your customers loyal and happy.
+                    </div>
+                </div>
+            </div>
+            <div class="footer-btm">
+                <hr>
+                <p class="text-center m-lg-5">Copyright @ Quantanite 2023. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/4a3cf85510.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="./assests/js/custom.js"></script>
+</body>
+
+</html>
