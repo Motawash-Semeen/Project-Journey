@@ -175,11 +175,14 @@
 }
 
 .service-slider-item {
-    /* width: 670px; */
     margin: auto;
     border-radius: 0 40px;
-    padding: 40px;
+    padding: 20px 40px 20px 40px;
     color: #fff;
+}
+
+.swiper-slide {
+    height: 306px !important;
 }
 
 .swiper {
@@ -216,7 +219,7 @@
 }
 
 .swiper-pagination {
-    bottom: -6% !important;
+    bottom: -9% !important;
 }
 
 .swiper-pagination-bullet-active {
