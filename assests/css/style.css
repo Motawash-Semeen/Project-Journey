@@ -119,6 +119,7 @@
     
     .navbar-expand-lg .navbar-nav .nav-link {
         padding: 0 !important;
+        color: rgb(3, 41, 112) !important;
     }
     
     .nav-mobile li a {
@@ -160,7 +161,7 @@
         position: relative;
     }
     
-    #navs .nav-item:before {
+    #navs .nav-item-default:before {
         position: absolute;
         content: '';
         width: 100%;
@@ -172,7 +173,7 @@
         opacity: 0;
     }
     
-    #navs .navbar .nav-item:hover::before {
+    #navs .navbar .nav-item-default:hover::before {
         opacity: 1;
         visibility: visible;
         transition: 0.7s ease !important;
@@ -182,25 +183,28 @@
         -o-transition: 0.7s ease !important;
     }
     
-    .nav-mobile .nav-item:before {
+    .nav-mobile .nav-item-default:before {
         width: 0px;
         height: 0px;
     }
     
-    .navbar .nav-item:hover .nav-link {
-        color: rgb(3, 41, 112);
-    }
-    
-    .navbar .nav-item:hover .nav-link {
-        color: rgb(3, 41, 112);
+    .navbar .nav-item-default:hover .nav-link {
+        color: rgb(3, 41, 112) !important;
     }
     
     .dropdown-menu {
+        padding: 5px 0px !important;
         border-radius: 0px !important;
         -webkit-border-radius: 0px !important;
         -moz-border-radius: 0px !important;
         -ms-border-radius: 0px !important;
         -o-border-radius: 0px !important;
+    }
+    
+    .dropdown-menu li a {
+        font-size: 14px !important;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
     
     .background {

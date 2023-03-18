@@ -22,14 +22,8 @@ $(".nav-mobile .nav-item4").click(function() {
     $(".drop-show4").slideToggle();
 });
 
-$(window).resize(function() {
-    console.log($("body").width());
-});
-
 
 AOS.init();
-
-
 
 
 var swiper = new Swiper(".mySwiper", {
