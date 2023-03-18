@@ -45,7 +45,7 @@
 }
 
 .ex-footer {
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .ex-footer-img p {
@@ -199,7 +199,7 @@
 }
 
 .lplus {
-    bottom: 28%;
+    bottom: 26%;
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
@@ -216,7 +216,7 @@
     background-color: #5174B3;
     margin: 20px 20px 20px 0px;
     border-radius: 0px 50px 0px 50px;
-    min-height: 282px;
+    min-height: 302px;
 }
 
 .love-overlay-bottom {
@@ -370,7 +370,7 @@
 }
 
 .right-shift {
-    right: -32%;
+    right: -38%;
 }
 
 .left-shift {
@@ -390,6 +390,7 @@
 #office-heads {
     background-color: rgb(238, 238, 238);
     padding: 20px 0px;
+    overflow: hidden;
 }
 
 .office-head-items {
@@ -515,7 +516,7 @@
 }
 
 .swiper-slide {
-    height: 306px !important;
+    height: 306px;
 }
 
 .swiper {
